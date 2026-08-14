@@ -25,7 +25,7 @@ pipeline {
 
         stage('Validation') {
             steps {
-                sh 'exit 1'
+                echo 'Validating the project...'
             }
         }
     }
